@@ -5,8 +5,10 @@ postfix_instance_srs_name="postfix-out"
 
 case "$1" in
 	configure)
-		postmulti -e init
-		postmulti -I postfix-out -G mta -e create
+		if [[ ! $(postmulti -l -i ${postfix_instance_srs_name}) ]]; then
+			postmulti -e init
+			postmulti -I postfix-out -G mta -e create
+		fi
 		postconf -c /etc/${postfix_instance_srs_name} -X sender_canonical_maps sender_canonical_classes recipient_canonical_maps recipient_canonical_classes
 		service postfix restart
 	;;
