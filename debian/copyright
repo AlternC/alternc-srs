@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: TODO
+
+Files: *
+Copyright: 2007, Free Software Foundation, Inc. <https://fsf.org/>
+License: GPL-3+
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+License: GPL-3+
+Comment: Add the corresponding license text here

@@ -1,0 +1,22 @@
+Source: alternc-srs
+Section: admin
+Priority: optional
+Maintainer: Camille Lafitte <alternc@webelys.com>
+Build-Depends: debhelper (>= 13)
+Standards-Version: 4.6.2.0
+
+Package: alternc-srs
+Priority: optional
+Section: admin
+Architecture: all
+Depends: alternc (>= 3.5), postsrsd
+Description: Sender Rewriting Scheme addon for AlternC
+ AlternC is a mutualized hosting software manager for Linux.
+ It allows you to manage your websites, domains, ftp, emails, aliases,
+ web statistics, mailing-lists, etc.
+ .
+ This package is an optional module that adds php7.x-fpm vhost templates
+ for AlternC. it is compatible with nginx-ssl and recommends
+ php7.x-fpm sury packages
+ .
+ More information on https://www.alternc.com/

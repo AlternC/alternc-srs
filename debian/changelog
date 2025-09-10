@@ -1,0 +1,5 @@
+alternc-srs (0.0.0) buster bullseye bookworm; urgency=low
+
+  * Initial module for AlternC
+
+ -- Camille Lafitte <alternc@webelys.com>  Wed, 10 Sep 2025 11:19:00 +020
